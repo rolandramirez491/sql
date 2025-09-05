@@ -1,0 +1,30 @@
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrinciapal.resources
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\usuario\source\repos\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrinciapal.resources
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
