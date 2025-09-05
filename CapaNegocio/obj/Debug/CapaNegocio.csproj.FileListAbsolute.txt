@@ -16,3 +16,12 @@ C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\C
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Roland\Documents\GitHub\sql\CapaNegocio\obj\Debug\CapaNegocio.pdb

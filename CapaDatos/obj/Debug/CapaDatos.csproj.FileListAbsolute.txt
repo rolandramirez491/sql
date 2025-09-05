@@ -10,3 +10,9 @@ C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\C
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\usuario\Downloads\ConexioSQLCapas (2)\ConexioSQLCapas\ConexioSQLCapas\ConexioSQLCapas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Roland\Documents\GitHub\sql\CapaDatos\obj\Debug\CapaDatos.pdb

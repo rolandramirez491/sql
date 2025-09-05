@@ -11,31 +11,31 @@ namespace CapaNegocio
 {
     public class CN_Empleado
     {
-        CD_Empleado empleado = new CD_Empleado();
+        CD_Empleado pelicula = new CD_Empleado();
 
-        public void Insertar(int id,string nom,string ape,double salario)
+        public void Insertar(int id, string nom, int duracion, string genero, int horafunc, int cantboletas)
         {
-            empleado.InsertarEmpleado(id,nom,ape,salario);
+            pelicula.InsertarPelicula(id,nom,duracion,genero,horafunc,cantboletas);
         }
 
-        public void Actualizar (int id,string nom,string ape,double salario)
+        public void Actualizar (int id, string nom, int duracion, string genero, int horafunc, int cantboletas)
         {
-            empleado.ActualizarEmpleado(id, nom,ape,salario);
+            pelicula.ActualizarPelicula(id, nom, duracion, genero, horafunc, cantboletas);
         }
         public void Eliminar (int id)
         {
-            empleado.EliminarEmpleado(id);
+            pelicula.EliminarPelicula(id);
 
         }
 
         public DataRow Buscar(int id)
         {
-            return empleado.BuscarEmpleado(id);
+            return pelicula.BuscarPelicula(id);
         }
 
         public DataTable Listar()
         {
-            return empleado.ListarEmpleados();
+            return pelicula.ListarPeliculas();
         }
     }
 }
