@@ -202,5 +202,10 @@ namespace CapaPresentacion
             label11.Text = int.TryParse(txtHoraFuncA.Text, out var h) ? (h >= 12 ? "Pm" : "Am") : "";
             if (h > 23) txtHoraFuncA.Text = (23).ToString();
         }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,8 +31,10 @@
             this.tbcOpciones = new System.Windows.Forms.TabControl();
             this.tbpRegistrar = new System.Windows.Forms.TabPage();
             this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblAm = new System.Windows.Forms.Label();
+            this.txtHoraFun = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -65,29 +67,26 @@
             this.btnListar = new System.Windows.Forms.Button();
             this.dgvEmpleados = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblV = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnComprar = new System.Windows.Forms.Button();
+            this.txtN = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.btnMenos = new System.Windows.Forms.Button();
+            this.btnMas = new System.Windows.Forms.Button();
+            this.lblT = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txtH = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtGen = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.txtDur = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.txtHoraFun = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.lblAm = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txtH = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.lblT = new System.Windows.Forms.Label();
-            this.btnMas = new System.Windows.Forms.Button();
-            this.btnMenos = new System.Windows.Forms.Button();
-            this.txtN = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.btnComprar = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.lblV = new System.Windows.Forms.Label();
             this.tbcOpciones.SuspendLayout();
             this.tbpRegistrar.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -117,7 +116,6 @@
             // tbpRegistrar
             // 
             this.tbpRegistrar.Controls.Add(this.btnRegistrar);
-            this.tbpRegistrar.Controls.Add(this.btnNuevo);
             this.tbpRegistrar.Controls.Add(this.groupBox1);
             this.tbpRegistrar.Location = new System.Drawing.Point(4, 22);
             this.tbpRegistrar.Margin = new System.Windows.Forms.Padding(2);
@@ -139,16 +137,6 @@
             this.btnRegistrar.TabIndex = 8;
             this.btnRegistrar.UseVisualStyleBackColor = true;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Image = global::CapaPresentacion.Properties.Resources.nuevo;
-            this.btnNuevo.Location = new System.Drawing.Point(398, 83);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(2);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(37, 34);
-            this.btnNuevo.TabIndex = 9;
-            this.btnNuevo.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -172,6 +160,36 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de la Pelicula";
+            // 
+            // lblAm
+            // 
+            this.lblAm.AutoSize = true;
+            this.lblAm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAm.ForeColor = System.Drawing.Color.Red;
+            this.lblAm.Location = new System.Drawing.Point(178, 144);
+            this.lblAm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAm.Name = "lblAm";
+            this.lblAm.Size = new System.Drawing.Size(0, 29);
+            this.lblAm.TabIndex = 11;
+            // 
+            // txtHoraFun
+            // 
+            this.txtHoraFun.Location = new System.Drawing.Point(91, 153);
+            this.txtHoraFun.Margin = new System.Windows.Forms.Padding(2);
+            this.txtHoraFun.Name = "txtHoraFun";
+            this.txtHoraFun.Size = new System.Drawing.Size(83, 20);
+            this.txtHoraFun.TabIndex = 10;
+            this.txtHoraFun.TextChanged += new System.EventHandler(this.txtHoraFun_TextChanged);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(13, 155);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(74, 13);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Hora Funcion:";
             // 
             // label13
             // 
@@ -517,6 +535,28 @@
             this.tabPage1.Text = "Entrada de Cine";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // lblV
+            // 
+            this.lblV.AutoSize = true;
+            this.lblV.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblV.Location = new System.Drawing.Point(395, 27);
+            this.lblV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblV.Name = "lblV";
+            this.lblV.Size = new System.Drawing.Size(39, 42);
+            this.lblV.TabIndex = 21;
+            this.lblV.Text = "0";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(381, 3);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(64, 24);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "Vistas:";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnComprar);
@@ -544,6 +584,114 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Registro";
+            // 
+            // btnComprar
+            // 
+            this.btnComprar.Location = new System.Drawing.Point(23, 211);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(133, 23);
+            this.btnComprar.TabIndex = 19;
+            this.btnComprar.Text = "Registrar Entrada";
+            this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
+            // 
+            // txtN
+            // 
+            this.txtN.Enabled = false;
+            this.txtN.Location = new System.Drawing.Point(91, 61);
+            this.txtN.Margin = new System.Windows.Forms.Padding(2);
+            this.txtN.Name = "txtN";
+            this.txtN.Size = new System.Drawing.Size(83, 20);
+            this.txtN.TabIndex = 18;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(20, 63);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(44, 13);
+            this.label23.TabIndex = 17;
+            this.label23.Text = "Nombre";
+            // 
+            // btnMenos
+            // 
+            this.btnMenos.Location = new System.Drawing.Point(135, 182);
+            this.btnMenos.Name = "btnMenos";
+            this.btnMenos.Size = new System.Drawing.Size(21, 23);
+            this.btnMenos.TabIndex = 16;
+            this.btnMenos.Text = "-";
+            this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
+            // 
+            // btnMas
+            // 
+            this.btnMas.Location = new System.Drawing.Point(91, 182);
+            this.btnMas.Name = "btnMas";
+            this.btnMas.Size = new System.Drawing.Size(21, 23);
+            this.btnMas.TabIndex = 15;
+            this.btnMas.Text = "+";
+            this.btnMas.UseVisualStyleBackColor = true;
+            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
+            // 
+            // lblT
+            // 
+            this.lblT.AutoSize = true;
+            this.lblT.Location = new System.Drawing.Point(117, 187);
+            this.lblT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblT.Name = "lblT";
+            this.lblT.Size = new System.Drawing.Size(13, 13);
+            this.lblT.TabIndex = 14;
+            this.lblT.Text = "1";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(22, 185);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(51, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Tiquetes:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(178, 160);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(89, 13);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "Formato 24 horas";
+            // 
+            // txtH
+            // 
+            this.txtH.Enabled = false;
+            this.txtH.Location = new System.Drawing.Point(91, 157);
+            this.txtH.Margin = new System.Windows.Forms.Padding(2);
+            this.txtH.Name = "txtH";
+            this.txtH.Size = new System.Drawing.Size(83, 20);
+            this.txtH.TabIndex = 11;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(20, 160);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(74, 13);
+            this.label20.TabIndex = 10;
+            this.label20.Text = "Hora Funcion:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(91, 22);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 9;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBox1.Click += new System.EventHandler(this.comboBox1_Click);
             // 
             // label14
             // 
@@ -603,166 +751,6 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Cod Pelicula:";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(91, 22);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 9;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            this.comboBox1.Click += new System.EventHandler(this.comboBox1_Click);
-            // 
-            // txtHoraFun
-            // 
-            this.txtHoraFun.Location = new System.Drawing.Point(91, 153);
-            this.txtHoraFun.Margin = new System.Windows.Forms.Padding(2);
-            this.txtHoraFun.Name = "txtHoraFun";
-            this.txtHoraFun.Size = new System.Drawing.Size(83, 20);
-            this.txtHoraFun.TabIndex = 10;
-            this.txtHoraFun.TextChanged += new System.EventHandler(this.txtHoraFun_TextChanged);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(13, 155);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(74, 13);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "Hora Funcion:";
-            // 
-            // lblAm
-            // 
-            this.lblAm.AutoSize = true;
-            this.lblAm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAm.ForeColor = System.Drawing.Color.Red;
-            this.lblAm.Location = new System.Drawing.Point(178, 144);
-            this.lblAm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblAm.Name = "lblAm";
-            this.lblAm.Size = new System.Drawing.Size(0, 29);
-            this.lblAm.TabIndex = 11;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(20, 160);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(74, 13);
-            this.label20.TabIndex = 10;
-            this.label20.Text = "Hora Funcion:";
-            // 
-            // txtH
-            // 
-            this.txtH.Enabled = false;
-            this.txtH.Location = new System.Drawing.Point(91, 157);
-            this.txtH.Margin = new System.Windows.Forms.Padding(2);
-            this.txtH.Name = "txtH";
-            this.txtH.Size = new System.Drawing.Size(83, 20);
-            this.txtH.TabIndex = 11;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(178, 160);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(89, 13);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "Formato 24 horas";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(22, 185);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(51, 13);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "Tiquetes:";
-            // 
-            // lblT
-            // 
-            this.lblT.AutoSize = true;
-            this.lblT.Location = new System.Drawing.Point(117, 187);
-            this.lblT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblT.Name = "lblT";
-            this.lblT.Size = new System.Drawing.Size(13, 13);
-            this.lblT.TabIndex = 14;
-            this.lblT.Text = "1";
-            // 
-            // btnMas
-            // 
-            this.btnMas.Location = new System.Drawing.Point(91, 182);
-            this.btnMas.Name = "btnMas";
-            this.btnMas.Size = new System.Drawing.Size(21, 23);
-            this.btnMas.TabIndex = 15;
-            this.btnMas.Text = "+";
-            this.btnMas.UseVisualStyleBackColor = true;
-            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
-            // 
-            // btnMenos
-            // 
-            this.btnMenos.Location = new System.Drawing.Point(135, 182);
-            this.btnMenos.Name = "btnMenos";
-            this.btnMenos.Size = new System.Drawing.Size(21, 23);
-            this.btnMenos.TabIndex = 16;
-            this.btnMenos.Text = "-";
-            this.btnMenos.UseVisualStyleBackColor = true;
-            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
-            // 
-            // txtN
-            // 
-            this.txtN.Enabled = false;
-            this.txtN.Location = new System.Drawing.Point(91, 61);
-            this.txtN.Margin = new System.Windows.Forms.Padding(2);
-            this.txtN.Name = "txtN";
-            this.txtN.Size = new System.Drawing.Size(83, 20);
-            this.txtN.TabIndex = 18;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(20, 63);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 13);
-            this.label23.TabIndex = 17;
-            this.label23.Text = "Nombre";
-            // 
-            // btnComprar
-            // 
-            this.btnComprar.Location = new System.Drawing.Point(23, 211);
-            this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(133, 23);
-            this.btnComprar.TabIndex = 19;
-            this.btnComprar.Text = "Registrar Entrada";
-            this.btnComprar.UseVisualStyleBackColor = true;
-            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(381, 3);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(64, 24);
-            this.label24.TabIndex = 20;
-            this.label24.Text = "Vistas:";
-            // 
-            // lblV
-            // 
-            this.lblV.AutoSize = true;
-            this.lblV.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblV.Location = new System.Drawing.Point(395, 27);
-            this.lblV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblV.Name = "lblV";
-            this.lblV.Size = new System.Drawing.Size(39, 42);
-            this.lblV.TabIndex = 21;
-            this.lblV.Text = "0";
-            // 
             // frmPrinciapal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -795,7 +783,6 @@
         private System.Windows.Forms.TabPage tbpRegistrar;
         private System.Windows.Forms.TabPage tbpBuscar;
         private System.Windows.Forms.Button btnRegistrar;
-        private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.Label label4;
