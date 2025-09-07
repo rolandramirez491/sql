@@ -87,7 +87,7 @@ namespace CapaPresentacion
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            pelicula.Actualizar(int.Parse(txtId.Text), txtNom.Text, int.Parse(txtDuracion.Text), txtGenero.Text, 9, 9);
+            pelicula.Actualizar(int.Parse(txtIdA.Text), txtNomA.Text, int.Parse(txtDuracionA.Text), txtGeneroA.Text, int.Parse(txtHoraFuncA.Text), int.Parse(txtCantBoletasA.Text));
             //int.Parse(txtId.Text), txtNom.Text, int.Parse(txtDuracion.Text), txtGenero.Text, int.Parse(txtHoraFuncA.Text), int.Parse(txtCantBoletasA.Text));
             MessageBox.Show("Se a actualizado la pelicula");
         }
@@ -96,6 +96,13 @@ namespace CapaPresentacion
         {
             pelicula.Eliminar(int.Parse(txtIdA.Text));
             MessageBox.Show("Se a eliminado la pelicula");
+            txtIdA.Text = "";
+            txtNomA.Text = "";
+            txtDuracionA.Text = "";
+            txtGeneroA.Text = "";
+            txtHoraFuncA.Text = "";
+            txtCantBoletasA.Text = "";
+            txtIdA.Focus();
         }
 
         private void btnListar_Click(object sender, EventArgs e)
@@ -108,8 +115,14 @@ namespace CapaPresentacion
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             pelicula.Insertar(
-                int.Parse(txtId.Text), txtNom.Text, int.Parse(txtDuracion.Text), txtGenero.Text, 0, 0);
+                int.Parse(txtId.Text), txtNom.Text, int.Parse(txtDuracion.Text), txtGenero.Text, int.Parse(txtHoraFun.Text), 0);
             MessageBox.Show("La pelicula Se ha registrado exitosamente!.");
+            txtId.Text = "";
+            txtNom.Text = "";
+            txtDuracion.Text = "";
+            txtGenero.Text = "";
+            txtHoraFun.Text = "";
+            txtId.Focus();
         }
 
         private void txtIdA_TextChanged(object sender, EventArgs e)
@@ -120,6 +133,74 @@ namespace CapaPresentacion
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void comboBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbcOpciones_Enter(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void btnMas_Click(object sender, EventArgs e)
+        {
+            
+            
+                lblT.Text= (int.Parse(lblT.Text) + 1).ToString();
+        }
+
+        private void btnMenos_Click(object sender, EventArgs e)
+        {
+            lblT.Text = int.TryParse(lblT.Text, out var n) && n > 1 ? (n - 1).ToString() : lblT.Text;
+
+        }
+
+        private void tbcOpciones_Selected(object sender, TabControlEventArgs e)
+        {
+            var dtCombo = pelicula.Listar();
+            
+            comboBox1.DisplayMember = "Cod";
+            comboBox1.DataSource = dtCombo;
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtN.Text = comboBox1.Text;
+            int id= int.Parse(comboBox1.Text);
+            var pel = pelicula.Buscar(id);
+
+            txtN.Text = pel["Nombre"].ToString();
+            txtDur.Text = pel["Duracion"].ToString();
+            txtGen.Text = pel["Genero"].ToString();
+            txtH.Text = pel["HoraFunc"].ToString();
+            lblV.Text = pel["CantBoletas"].ToString();
+
+        }
+
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+            pelicula.Actualizar(int.Parse(comboBox1.Text), txtN.Text, int.Parse(txtDur.Text), txtGen.Text, int.Parse(txtH.Text), (int.Parse(lblV.Text)+(int.Parse(lblT.Text))));
+            //int.Parse(txtId.Text), txtNom.Text, int.Parse(txtDuracion.Text), txtGenero.Text, int.Parse(txtHoraFuncA.Text), int.Parse(txtCantBoletasA.Text));
+            double valorPagar = (int.Parse(lblT.Text) * 7500);
+            MessageBox.Show("Se ha registrado la entrada, el valor a pagar es de "+valorPagar.ToString()) ;
+            lblT.Text = "0";
+        }
+
+        private void txtHoraFun_TextChanged(object sender, EventArgs e)
+        {
+            lblAm.Text = int.TryParse(txtHoraFun.Text, out var h) ? (h >= 12 ? "Pm" : "Am") : "";
+            if (h > 23) txtHoraFun.Text = (23).ToString();
+        }
+
+        private void txtHoraFuncA_TextChanged(object sender, EventArgs e)
+        {
+            label11.Text = int.TryParse(txtHoraFuncA.Text, out var h) ? (h >= 12 ? "Pm" : "Am") : "";
+            if (h > 23) txtHoraFuncA.Text = (23).ToString();
         }
     }
 }

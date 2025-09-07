@@ -38,6 +38,7 @@ namespace CapaDatos
             {
                 //Crear el comando para ejecutar los procedimientos almacenados
                 SqlCommand comando = new SqlCommand("sp_ActualizarPelicula", cn);
+                comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@Cod", id);
                 comando.Parameters.AddWithValue("@Nombre", nom);
                 comando.Parameters.AddWithValue("@Duracion", duracion);
